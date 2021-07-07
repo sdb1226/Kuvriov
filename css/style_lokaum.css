@@ -20,4 +20,17 @@ body {
 
 .wrap {
     position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 360px;
+    width: 360px;
+    background-color: rgb(255, 16, 223);
+}
+
+div.header {
+    position: fixed;
+    z-index: 120;
+    width: 360px;
+    height: 50px;
+    background: darkgoldenrod;
 }
