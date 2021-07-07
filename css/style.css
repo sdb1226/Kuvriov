@@ -1,0 +1,9 @@
+* {
+Box-sizing: border-box;
+Margin: 0;
+Padding: 0
+}
+
+Body {
+Background-color: #353535;
+}
