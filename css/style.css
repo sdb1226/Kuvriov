@@ -1,9 +1,23 @@
+/* style_lokaum.css */
+
 * {
-Box-sizing: border-box;
-Margin: 0;
-Padding: 0
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-Body {
-Background-color: #353535;
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.wrap {
+    position: relative;
 }
