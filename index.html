@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>연습 반응형</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 
-    <!-- Jquary, Swiper -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -15,31 +15,116 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
-    <link rel="stylesheet" href="css/style_lokaum.css">
-    <script src="js/js_lokaum.js"></script>
 
-
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/js.js"></script>
 </head>
 
 <body>
     <div class="wrap">
-        <div class="header" id="header">
+        <div class="header">
             <div class="header_container">
-                <b>Logo</b>
+                <a href="index.html">
+                    <img src="https://www.coop.go.kr/COOP/images/main/img_coop.png" alt="홈">
+                </a>
+                <ul class="hd_menu_container">
+                    <li class="hd_menu">홈</li>
+                    <li class="hd_menu">회원가입</li>
+                    <li class="hd_menu">로그인</li>
+                    <li onclick="click()" class="hd_menu">사이트맵</li>
+                    <li class="hd_menu">
+                        <input id="hd_textbox" type="text">
+                        <button id="hd_textbtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+
             </div>
         </div>
-        
+        <div class="nav">
+            <div class="nav_container">
+                <div class="nav_mainmenu">제도소개
+                    <div class="nav_submenu_container">
+                        <div class="nav_submenu">1-1</div>
+                        <div class="nav_submenu">1-2</div>
+                        <div class="nav_submenu">1-3</div>
+                        <div class="nav_submenu">1-4</div>
 
+                    </div>
+                </div>
+                <div class="nav_mainmenu">설립/운영
+                    <div class="nav_submenu_container">
+                        <div class="nav_submenu">2-1</div>
+                        <div class="nav_submenu">2-2</div>
+                        <div class="nav_submenu">2-3</div>
+                        <div class="nav_submenu">2-4</div>
+                        <div class="nav_submenu">2-2</div>
+                        <div class="nav_submenu">2-3</div>
+                        <div class="nav_submenu">2-4</div>
+                    </div>
+                </div>
+                <div class="nav_mainmenu">협동조합현황
+                    <div class="nav_submenu_container">
+                        <div class="nav_submenu">3-1</div>
+                        <div class="nav_submenu">3-2</div>
+                        <div class="nav_submenu">3-3</div>
+                        <div class="nav_submenu">3-4</div>
+                        <div class="nav_submenu">3-5</div>
+                        <div class="nav_submenu">3-6</div>
+                    </div>
+                </div>
+                <div class="nav_mainmenu">알림마당
+                    <div class="nav_submenu_container">
+                        <div class="nav_submenu">4-1</div>
+                        <div class="nav_submenu">4-2</div>
+                    </div>
+                </div>
+                <div class="nav_mainmenu">소통마당
+                    <div class="nav_submenu_container">
+                        <div class="nav_submenu">5-1</div>
+                        <div class="nav_submenu">5-2</div>
+                        <div class="nav_submenu">5-3</div>
+                    </div>
+                </div>
+                <div class="nav_mainmenu">교육
+                    <div class="nav_submenu_container">
+                        <div class="nav_submenu">6-1</div>
+                        <div class="nav_submenu">6-2</div>
+                        <div class="nav_submenu">6-3</div>
+                        <div class="nav_submenu">6-4</div>
+                        <div class="nav_submenu">6-5</div>
+                        <div class="nav_submenu">6-6</div>
+                        <div class="nav_submenu">6-7</div>
+                    </div>
+                </div>
+                <div class="nav_back">
 
-        <div class="main" id="main">
-            <div id="mainwall" class="main_01_wallpaper"></div>
-            <div id="" class="main_02_"></div>
-            <div id="" class="main_03_"></div>
+                </div>
+            </div>
         </div>
-
-
-        <div class="footer"></div>
-
+        <div class="main">
+            <div class="main_article1">
+                1
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_hd">
+                <div class="footer_hd_container">
+                    <ul class="footer_hd_btn_container">
+                        <li class="footer_hd_btn">이용안내</li>
+                        <li class="footer_hd_btn">개인정보처리방침</li>
+                        <li class="footer_hd_btn">저작권 보호정책</li>
+                        <li class="footer_hd_btn">찾아오시는 길</li>
+                        <li class="footer_hd_btn">도로명 주소 안내</li>
+                        <li class="footer_hd_btn">사이트맵</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_bd">
+                <div class="footer_bd_container"></div>
+            </div>
+        </div>
     </div>
 
 </body>
