@@ -148,6 +148,7 @@ body {
 
 .nav_mainmenu:nth-child(6) {
     border-right: none;
+    color: #37841F;
 }
 
 
@@ -296,5 +297,5 @@ body {
 .footer_bd_container {
     margin: 0 160px;
     height: 100%;
-    background-color: rgb(113, 30, 146);
+    background-color: #DFDFDF;
 }
